@@ -291,7 +291,7 @@ def get_throttling_function_code(js: str) -> str:
     """
     # Begin by extracting the correct function name
     # name = re.escape(get_throttling_function_name(js))
-    name = "iha"
+    name = "hha"
 
     # Identify where the function is defined
     pattern_start = r"%s=function\(\w\)" % name
